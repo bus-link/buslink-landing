@@ -5,7 +5,7 @@ const HomeBanner = () => {
 		<section className='flex flex-wrap justify-between w-full items-start md:h-screen py-5'>
 			<div className='w-full md:w-[45%] flex flex-col space-y-5 text-center md:text-left md:pt-20'>
 				<h1 className='text-3xl md:text-5xl leading-[60px]'>
-					Book your journey & grow your travel business smarter
+					Book your journey & grow your travel agency business smarter
 				</h1>
 				<p className='text-sm md:text-lg'>
 					Make your travel bookings easily from your phone as a
