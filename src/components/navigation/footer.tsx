@@ -18,7 +18,7 @@ const Footer = () => {
             <p className='text-sm'>Copyright &copy; 2023 Buslink</p>
             </div>
 
-			<div className='flex flex-wrap items-start md:space-x-10'>
+			<div className='flex flex-nowrap items-start space-x-5 md:space-x-10'>
 				<div className='flex flex-col items-start space-y-5 pt-8 pb-10'>
 					<h1>About Us</h1>
 
