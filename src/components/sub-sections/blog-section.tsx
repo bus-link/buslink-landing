@@ -21,20 +21,20 @@ const BlogSection = () => {
 				{BlogItems.map((blog) => (
 					<div
 						key={blog.id}
-						className='flex flex-col justify-between items-start w-full sm:w-[300px] h-[400px] sm:h-[350px] cursor-pointer'
+						className='flex flex-col justify-between items-start w-full sm:w-[300px] cursor-pointer mb-10 sm:mb-0'
 					>
-						<div className='w-full h-[50%] sm:h-[70%] rounded-lg '>
+						<div className='w-full h-[200px] rounded-lg '>
 							<Image
 								// fill
 								width={400}
 								height={600}
 								src={blog.image}
 								alt={blog.description}
-								className='object-cover rounded-lg'
+								className='object-cover rounded-lg h-full'
 							/>
 						</div>
 
-						<div className='space-y-3'>
+						<div className='space-y-3 pt-10'>
 							<p className='text-sm'>{blog.description}</p>
 
 							<div className='flex items-center space-x-3'>
