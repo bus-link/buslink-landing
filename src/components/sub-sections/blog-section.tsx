@@ -26,11 +26,11 @@ const BlogSection = () => {
 						<div className='w-full h-[200px] rounded-lg '>
 							<Image
 								// fill
-								width={400}
+								width={800}
 								height={600}
 								src={blog.image}
 								alt={blog.description}
-								className='object-cover rounded-lg h-full'
+								className='object-cover rounded-lg h-full w-full'
 							/>
 						</div>
 
