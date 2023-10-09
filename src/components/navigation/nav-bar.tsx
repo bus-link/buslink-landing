@@ -15,7 +15,7 @@ const NavBar = () => {
 
 	return (
 		<div className='relative'>
-			<nav className='w-full hidden md:flex items-center justify-between py-2 px-8'>
+			<nav className='w-full hidden md:flex items-center justify-between py-2 px-8 md:px-32'>
 				<Link href='/'>
 					<Image
 						alt='buslink-logo'

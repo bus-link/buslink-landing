@@ -1,8 +1,8 @@
 import Image from 'next/image';
 
-const HomeBanner = () => {
+const HeaderSection = () => {
 	return (
-		<section className='flex flex-wrap justify-between w-full items-start md:h-screen py-5'>
+		<section className='flex flex-wrap justify-between w-full items-start md:h-screen py-5 px-8 md:px-32'>
 			<div className='w-full md:w-[45%] flex flex-col space-y-5 text-center md:text-left md:pt-20'>
 				<h1 className='text-3xl md:text-5xl leading-[60px]'>
 					Book your journey & grow your travel agency business smarter
@@ -13,7 +13,7 @@ const HomeBanner = () => {
 					as a travel agency.
 				</p>
 			</div>
-			<div className='w-full md:w-[55%] h-[600px] md:h-[80%] relative bg-red-40 pb-10 mt-8 md:mt-0'>
+			<div className='w-full md:w-[45%] h-[600px] md:h-[80%] relative bg-red-40 pb-10 mt-8 md:mt-0'>
 				<Image
 					alt='logo'
 					fill
@@ -27,4 +27,4 @@ const HomeBanner = () => {
 	);
 };
 
-export default HomeBanner;
+export default HeaderSection;
