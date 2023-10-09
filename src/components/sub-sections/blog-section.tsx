@@ -21,7 +21,7 @@ const BlogSection = () => {
 				{BlogItems.map((blog) => (
 					<div
 						key={blog.id}
-						className='flex flex-col justify-between items-start w-full sm:w-[300px] h-[350px] cursor-pointer'
+						className='flex flex-col justify-between items-start w-full sm:w-[300px] h-[400px] sm:h-[350px] cursor-pointer'
 					>
 						<div className='w-full h-[70%] rounded-lg '>
 							<Image

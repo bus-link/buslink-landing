@@ -16,7 +16,7 @@ const ProductUsers = () => {
 				</p>
 			</div>
 
-			<div className='flex flex-wrap items-center justify-between gap-x-10 gap-y-20 sm:gap-y-5'>
+			<div className='flex flex-wrap items-center justify-center sm:justify-between gap-x-10 gap-y-20 sm:gap-y-5'>
 				{ProductUserItems.map((item) => (
 					<div
 						key={item.id}
@@ -36,7 +36,7 @@ const ProductUsers = () => {
 								text={item.title}
 							/>
 
-							<p className='-sm text-xs'>{item.description}</p>
+							<p className='text-sm sm:text-xs'>{item.description}</p>
 						</div>
 					</div>
 				))}
