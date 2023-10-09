@@ -5,7 +5,7 @@ import {MessageCircle} from 'lucide-react';
 
 const BlogSection = () => {
 	return (
-		<section className='flex flex-col space-y-14 justify-between w-full items-center py-20 px-8 md:px-32'>
+		<section className='flex flex-col space-y-14 justify-between w-full items-center py-20 px-8 sm:px-10 md:px-32'>
 			<div className='space-y-3'>
 				<Header
 					classNames='text-2xl text-center'
@@ -21,7 +21,7 @@ const BlogSection = () => {
 				{BlogItems.map((blog) => (
 					<div
 						key={blog.id}
-						className='flex flex-col justify-between items-start w-[300px] h-[350px] cursor-pointer'
+						className='flex flex-col justify-between items-start w-full sm:w-[300px] h-[350px] cursor-pointer'
 					>
 						<div className='w-full h-[70%] rounded-lg '>
 							<Image

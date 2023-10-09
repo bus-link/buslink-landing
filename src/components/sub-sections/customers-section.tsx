@@ -4,8 +4,8 @@ import Link from 'next/link';
 
 const CustomersSection = () => {
 	return (
-		<section className='flex flex-wrap justify-between w-full items-start py-5 md:py-20 px-8 md:px-32'>
-			<div className='w-full md:w-[45%] md:h-[80%] relative bg-red-40 mt-8 md:mt-0'>
+		<section className='flex flex-wrap justify-between w-full items-start py-5 sm:py-20 px-8 sm:px-10 md:px-32'>
+			<div className='w-full sm:w-[45%] sm:h-[80%] relative bg-red-40 mt-8 sm:mt-0'>
 				<Image
 					alt='customer_banner'
 					src={'/customer_banner.svg'}
@@ -16,8 +16,8 @@ const CustomersSection = () => {
 				/>
 			</div>
 
-			<div className='w-full md:w-[45%] flex flex-col space-y-5 text-left '>
-				<h1 className='text-3xl md:text-4xl md:leading-[60px]'>
+			<div className='w-full sm:w-[45%] flex flex-col space-y-5 text-left '>
+				<h1 className='text-3xl sm:text-4xl sm:leading-[60px]'>
 					We have thousands of worldwide happy customer 😊
 				</h1>
 				<p className='text-sm'>

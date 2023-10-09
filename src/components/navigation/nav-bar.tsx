@@ -42,9 +42,7 @@ const NavBar = () => {
 				<Button
 					type='button'
 					variant={'outline'}
-					className={`font-bold ${
-						showMenu ? 'hidden' : 'block'
-					}`}
+					className={`font-bold ${showMenu ? 'hidden' : 'block'}`}
 					onClick={toggleMenu}
 				>
 					<Menu />

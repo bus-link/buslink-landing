@@ -6,7 +6,7 @@ import {ArrowRightSquare} from 'lucide-react';
 
 const FeaturesSection = () => {
 	return (
-		<section className='flex flex-col space-y-14 justify-between w-full items-center py-20 px-8 md:px-32 bg-slate-100'>
+		<section className='flex flex-col space-y-14 justify-between w-full items-center py-20 px-8 sm:px-10 md:px-32 bg-slate-100 mt-20 sm:mt-0'>
 			<div className='space-y-3'>
 				<Header
 					classNames='text-2xl text-center'
@@ -19,7 +19,7 @@ const FeaturesSection = () => {
 				</p>
 			</div>
 
-			<div className='grid grid-cols-1 md:grid-cols-3 gap-10 md:gap-20'>
+			<div className='grid grid-cols-1 sm:grid-cols-3 gap-20'>
 				{FeatureItems.map((feature) => (
 					<div
 						key={feature.id}
@@ -45,7 +45,8 @@ const FeaturesSection = () => {
 							href='#'
 							className='text-sky-600 text-xs flex items-center space-x-4'
 						>
-							<p>Learn More</p> <ArrowRightSquare className='h-4 w-4' />
+							<p>Learn More</p>{' '}
+							<ArrowRightSquare className='h-4 w-4' />
 						</Link>
 					</div>
 				))}

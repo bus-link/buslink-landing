@@ -44,9 +44,9 @@ const SubscribeSection = () => {
 	};
 
 	return (
-		<section className='w-full py-5 pb-20 pt-20 md:py-20 px-8 md:px-32 bg-subscribe bg-green-100'>
-			<div className='bg-white h-full rounded-lg w-full flex flex-wrap items-center justify-between py-20 md:px-10 px-5'>
-				<div className='space-y-3'>
+		<section className='w-full py-5 pb-20 pt-20 sm:py-20 px-8 sm:px-10 md:px-32 bg-subscribe bg-green-100'>
+			<div className='bg-white h-full rounded-lg w-full flex flex-wrap items-center justify-between py-20 sm:px-10 px-5'>
+				<div className='space-y-3 w-full sm:w-[50%]'>
 					<Header
 						classNames='text-2xl text-cente'
 						text='Like our service? Subscribe us'
@@ -57,8 +57,8 @@ const SubscribeSection = () => {
 					</p>
 				</div>
 
-				<form onSubmit={handleSubmit} className='space-y-3 mt-5 md:mt-0'>
-					<div className='flex flex-col md:flex-row items-center md:space-x-3'>
+				<form onSubmit={handleSubmit} className='space-y-3 mt-5 sm:mt-0 w-full sm:w-[50%]'>
+					<div className='flex flex-col sm:flex-row items-center sm:space-x-3 w-full'>
 						<FormTextInput
 							name='email'
 							padding='py-4 px-4'
@@ -69,7 +69,7 @@ const SubscribeSection = () => {
 						/>
 						<Button
 							type='submit'
-							className='bg-green-600 hover:bg-green-700 h-12 text-white hover:text-white w-full md:w-fit mt-5 md:mt-0'
+							className='bg-green-600 hover:bg-green-700 h-12 text-white hover:text-white w-full sm:w-fit mt-5 sm:mt-0'
 						>
 							Subscribe
 						</Button>

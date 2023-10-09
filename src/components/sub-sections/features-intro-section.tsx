@@ -3,8 +3,8 @@ import Image from 'next/image';
 
 const FeaturesIntroSection = () => {
 	return (
-		<section className='flex flex-wrap justify-between w-full items-start py-5 md:py-20 px-8 md:px-32'>
-			<div className='w-full md:w-[45%] md:h-[80%] relative bg-red-40 mt-8 md:mt-0'>
+		<section className='flex flex-wrap justify-between w-full items-start py-5 sm:py-20 px-8 sm:px-10 md:px-32'>
+			<div className='w-full sm:w-[45%] sm:h-[80%] relative bg-red-40 mt-8 sm:mt-0'>
 				<Image
 					alt='features_banner'
 					src={'/features_banner.svg'}
@@ -15,8 +15,8 @@ const FeaturesIntroSection = () => {
 				/>
 			</div>
 
-			<div className='w-full md:w-[45%] flex flex-col space-y-5 text-left '>
-				<h1 className='text-3xl md:text-5xl md:leading-[60px]'>
+			<div className='w-full sm:w-[45%] flex flex-col space-y-5 text-left '>
+				<h1 className='text-3xl sm:text-5xl sm:leading-[60px]'>
 					Meet our exciting features that will make you wow 🤯
 				</h1>
 				<p className='text-sm'>
