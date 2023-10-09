@@ -34,7 +34,7 @@ const BlogSection = () => {
 							/>
 						</div>
 
-						<div className=' h-[50%] sm:h-[30%] space-y-3'>
+						<div className='space-y-3'>
 							<p className='text-sm'>{blog.description}</p>
 
 							<div className='flex items-center space-x-3'>
