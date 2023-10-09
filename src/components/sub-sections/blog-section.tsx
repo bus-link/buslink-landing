@@ -23,7 +23,7 @@ const BlogSection = () => {
 						key={blog.id}
 						className='flex flex-col justify-between items-start w-full sm:w-[300px] h-[400px] sm:h-[350px] cursor-pointer'
 					>
-						<div className='w-full h-[70%] rounded-lg '>
+						<div className='w-full h-[50%] sm:h-[70%] rounded-lg '>
 							<Image
 								// fill
 								width={400}
@@ -34,7 +34,7 @@ const BlogSection = () => {
 							/>
 						</div>
 
-						<div className='h-[30%] space-y-3'>
+						<div className=' h-[50%] sm:h-[30%] space-y-3'>
 							<p className='text-sm'>{blog.description}</p>
 
 							<div className='flex items-center space-x-3'>
